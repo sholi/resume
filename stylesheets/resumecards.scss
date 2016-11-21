@@ -29,7 +29,7 @@ $grid-gutter-width: 20px;
   Theme Colors
 ———————————–———————————–*/
 
-$default-base: #5F7C8A;
+$default-base: #575a5b;
 $red-base: #C46767;
 $pink-base: #D95D87;
 $blue-base: #59A2DD;
@@ -42,7 +42,7 @@ $all-colors: ("default": ("base": $default-base,
                           "sub": lighten($default-base, 10%),
                           "text": darken($default-base, 50%),
                           "muted": grayscale($default-base),
-                          "bg": lighten($default-base, 45%),
+                          "bg": lighten($default-base, 60%),
                           "heading": lighten($default-base, 40%)),
               "red": ("base": $red-base,
                       "sub": lighten($red-base, 20%),
@@ -144,6 +144,7 @@ header {
 footer {
   padding: $space-md 0 ($space-md * 3);
 }
+
 
 /* Heading */
 
